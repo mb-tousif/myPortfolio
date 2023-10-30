@@ -1,0 +1,21 @@
+import React from "react";
+
+const footerStyle: React.CSSProperties = {
+  padding: "1rem",
+  textAlign: "center",
+  color: "white",
+  fontWeight: "bold",
+};
+
+export default function Footer() {
+  return (
+    <div
+      style={footerStyle}
+      className="bg-[#3A4D39]"
+    >
+      <p className="pb-10">
+        All right reserved & Copyright &#169; {new Date().getFullYear()}.
+      </p>
+    </div>
+  );
+}
