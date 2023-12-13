@@ -9,10 +9,7 @@ const footerStyle: React.CSSProperties = {
 
 export default function Footer() {
   return (
-    <div
-      style={footerStyle}
-      className="bg-[#3A4D39]"
-    >
+    <div style={footerStyle} className="bg-[#092635]">
       <p className="pb-10">
         All right reserved & Copyright &#169; {new Date().getFullYear()}.
       </p>
