@@ -16,12 +16,12 @@ export default function HeroSection() {
           style="top-[30%] left-5"
           anim_delay={{ animationDelay: "0.5s", animationDuration: "9s" }}
         />
-        <Image
+        {/* <Image
           src={HeroImage}
           alt="Shahrear ahamed Hero Image with blazer"
           height={500}
           width={500}
-        />
+        /> */}
 
         <ShowCase
           icon={<FaTools />}
