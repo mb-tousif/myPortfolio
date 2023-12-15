@@ -5,7 +5,7 @@ import Skills from '@/components/ui/Skills'
 export default function Home() {
   
   return (
-    <main className="p-20 bg-[#355764]">
+    <main className="p-20 bg-[#B6BBC4]">
       <HeroSection />
       <Skills />
     </main>

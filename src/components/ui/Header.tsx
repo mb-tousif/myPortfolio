@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header className="w-full border-t border-gray-100 shadow-sm body-font">
+    <header className="w-full bg-[#ff014f] shadow-sm body-font">
       <div className="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
         <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
           𝕯𝖊𝖛 𝕿𝖔𝖚𝖘𝖎𝖋
@@ -19,15 +19,10 @@ export default function Header() {
           </a>
         </nav>
         <div className="items-center h-full">
-          <a href="#_" className="mr-5 font-medium hover:text-gray-900">
-            Login
-          </a>
-          <a
-            href="#_"
-            className="px-4 py-2 text-xs font-bold text-white uppercase transition-all duration-150 bg-teal-500 rounded shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease"
-          >
-            Sign Up
-          </a>
+          <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-[#1C315E] to-[#227C70]  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">
+            RESUME
+            <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-[#092635] to-[#001B79] "></span>
+          </button>
         </div>
       </div>
     </header>
