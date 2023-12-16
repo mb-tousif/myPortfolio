@@ -8,6 +8,7 @@ export default function Skills(){
           <h3 className="">Technical Skill</h3>
           <div className="text-lime-700">
             {/* <canvas width="300" height="300" className="text-lime-700"> */}
+            <circle>
               <ul>
                 {skillList?.map((skill) => (
                   <li key={skill.id}>
@@ -15,6 +16,7 @@ export default function Skills(){
                   </li>
                 ))}
               </ul>
+            </circle>
             {/* </canvas> */}
           </div>
         </div>
