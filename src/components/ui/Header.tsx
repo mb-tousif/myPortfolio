@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header className="w-full bg-[#ff014f] shadow-sm body-font">
+    <header className="w-full bg-[#ff014f] shadow-sm body-font container">
       <div className="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
         <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
           𝕯𝖊𝖛 𝕿𝖔𝖚𝖘𝖎𝖋
