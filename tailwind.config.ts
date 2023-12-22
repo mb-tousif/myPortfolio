@@ -9,10 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        button: `linear-gradient(90deg, #227c70 0%, #1c315e 100%)`,
+        header: "#5B4E2A",
+        footer: "#2C2C2C",
+        body: "#867048",
         primary: "#ff014f",
-      },
-      backgroundImage: {
-        primary: `linear-gradient(90deg, rgba(28,49,94,1) 54%, rgba(34,124,112,1) 100%)`,
+        secondary: "#227c70",
+        light: "#1c315e",
       },
     },
   },

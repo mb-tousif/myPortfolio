@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header className="w-full shadow-sm body-font container">
-      <div className="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
+    <div className="w-full bg-header shadow-sm body-font container">
+      <div className="container flex flex-col items-center justify-between p-6 mx-auto md:flex-row">
         <a className="flex items-center mb-4 font-medium text-primary title-font md:mb-0">
-          𝕯𝖊𝖛 𝕿𝖔𝖚𝖘𝖎𝖋
+          &#60; 𝕯𝖊𝖛 𝕿𝖔𝖚𝖘𝖎𝖋 &#47;&#62;
         </a>
         <nav className="flex flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
           <a href="#_" className="mr-5 font-medium hover:text-gray-900">
@@ -25,6 +25,6 @@ export default function Header() {
           </button>
         </div>
       </div>
-    </header>
+    </div>
   );
 }
