@@ -13,9 +13,13 @@ const config: Config = {
         header: "#5B4E2A",
         footer: "#2C2C2C",
         body: "#867048",
-        primary: "#ff014f",
+        primary: "#f5f5f5",
         secondary: "#227c70",
         light: "#1c315e",
+      },
+      backgroundImage: {
+        parallax:
+          "url('https://img.freepik.com/premium-photo/elearning-online-education-home-modern-vector-illustration-concepts-website-mobile-web_756748-16854.jpg')",
       },
     },
   },

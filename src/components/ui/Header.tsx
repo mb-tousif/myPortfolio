@@ -19,9 +19,8 @@ export default function Header() {
           </a>
         </nav>
         <div className="items-center h-full">
-          <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-body to-footer  relative gap-2 transition duration-300 hover:scale-105 text-primary shadow-glass ">
+          <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-body to-footer  relative gap-2 transition duration-300 hover:scale-105 text-primary shadow-glass">
             RESUME
-            <span className="animate-ping translate-[360deg] absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-[#092635] to-[#001B79] "></span>
           </button>
         </div>
       </div>
