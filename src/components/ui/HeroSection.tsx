@@ -4,8 +4,8 @@ import SectionTitle from './SectionTitle';
 
 export default function HeroSection() {
   return (
-    <>
-      <div className="flex flex-col bg-[#272727e1] bg-fixed bg-parallax bg-cover h-96 justify-center items-center my-16">
+    <section className="">
+      <div className="flex min-h-[70vh] pt-10 pb-10 bg-transparent bg-fixed bg-parallax bg-cover flex-col justify-center items-center">
         <h1 className="text-5xl font-bold text-primary leading-tight">
           Welcome to My Site
         </h1>
@@ -29,6 +29,6 @@ export default function HeroSection() {
           />
         </div>
       </div>
-    </>
+    </section>
   );
 }

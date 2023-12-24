@@ -18,8 +18,7 @@ const config: Config = {
         light: "#1c315e",
       },
       backgroundImage: {
-        parallax:
-          "url('https://img.freepik.com/premium-photo/elearning-online-education-home-modern-vector-illustration-concepts-website-mobile-web_756748-16854.jpg')",
+        parallax: "url('https://i.ibb.co/HHf7xrz/Screenshot-5.png')",
       },
     },
   },

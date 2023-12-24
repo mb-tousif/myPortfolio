@@ -5,7 +5,7 @@ import Skills from '@/components/ui/Skills'
 export default function Home() {
   
   return (
-    <main className="p-20 bg-body">
+    <main className="bg-body">
       <HeroSection />
       <Skills />
     </main>
