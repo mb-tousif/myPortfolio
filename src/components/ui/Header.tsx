@@ -8,13 +8,13 @@ export default function Header() {
           &#60; 𝕯𝖊𝖛 𝕿𝖔𝖚𝖘𝖎𝖋 &#47;&#62;
         </a>
         <nav className="flex flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
-          <a href="#_" className="mr-5 font-medium text-primary">
+          <a href="#_" className="mr-5 font-medium text-primary hover:border-2 p-1">
             Home
           </a>
-          <a href="#_" className="mr-5 font-medium text-primary">
+          <a href="#_" className="mr-5 font-medium text-primary hover:border-2 p-1">
             Project
           </a>
-          <a href="#_" className="font-medium text-primary">
+          <a href="#_" className="font-medium text-primary hover:border-2 p-1">
             Blogs
           </a>
         </nav>
